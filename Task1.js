@@ -1,23 +1,38 @@
-let TechKaro = [
-    {
-        Founder: "Sadafee"
+let techKaro = {
+    Founder: "Sadafee",
+    missions: ["Women impowerment",
+        "Program for Women"],
+    Branch: 5,
+    Faculty: ["Miss Sarah", 
+              "Miss Tuba"],
+    Course: "Web_Development",
+    spnonser: ["Engro", 
+               "Free-Code-Camp", 
+               "UIT"],
+    successStories: {
+        story1: {
+            name: "Ahmed",
+            job: "UI/UX designer at IBEX",
+            salary: 3000,
+        },
+        story2: {
+            name: "Andrew",
+            job: "BackEnd Developer at Next-Gen.",
+            salary: 1000,
+        },
+        story3: {
+            name: "Riaz",
+            job: "UI/UX designer at Vendeture",
+            salary: 4000,
+        },
+        story4: {
+            name: "Ahsan",
+            job: "Full Stack  Developer",
+            salary: 8000,
+        }
     },
-    {
-        mission: ["Women impowerment", "Program for Women"],
-
-    },
-    {
-        Branch: 5
-    },
-    {
-        Faculty: ["Miss Sarah", "Miss Tuba"]
-    },
-    {
-        Course: "Web_Development"
-    },
-    {
-        Student:[
-            {
+    Students: [
+        {
             Name: "Oliver",
             Father_Name: "Charlie",
             Mother_Name: "Mahnoor",
@@ -26,7 +41,7 @@ let TechKaro = [
             Nic: 423022344,
             Email: "abc123@gmail.com",
             Contact: 0320123,
-            Father_income: 2000,
+            fatherIncome: 2000,
             Personal_income: 3400,
             isEmployed: true,
             Address: "gulshan",
@@ -34,14 +49,14 @@ let TechKaro = [
         {
             Name: "rthur",
             Father_Name: "Charlie",
-            Mother_Name:"Mahnoor" ,
+            Mother_Name: "Mahnoor",
             DOB: "12/01/1991",
             Education: "BCom",
             Nic: 423022344,
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:3400,
+            Personal_income: 3400,
             isEmployed: true,
             Address: "Haded",
         },
@@ -83,12 +98,12 @@ let TechKaro = [
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:3400,
+            Personal_income: 3400,
             isEmployed: true,
             Address: "Haded"
         },
         {
-            Name:"Oliver",
+            Name: "Oliver",
             Father_Name: "Henry",
             Mother_Name: "Mahnoor",
             DOB: "12/01/1995",
@@ -181,7 +196,7 @@ let TechKaro = [
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:3400,
+            Personal_income: 3400,
             isEmployed: true,
             Address: "gulshan"
         },
@@ -223,7 +238,7 @@ let TechKaro = [
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:3400,
+            Personal_income: 3400,
             isEmployed: true,
             Address: "gulshan"
         },
@@ -265,7 +280,7 @@ let TechKaro = [
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:1500,
+            Personal_income: 1500,
             isEmployed: true,
             Address: "Haded"
         },
@@ -279,7 +294,7 @@ let TechKaro = [
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:1500,
+            Personal_income: 1500,
             isEmployed: true,
             Address: "gulshan"
         },
@@ -335,7 +350,7 @@ let TechKaro = [
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:1500,
+            Personal_income: 1500,
             isEmployed: true,
             Address: "gulshan"
         },
@@ -391,7 +406,7 @@ let TechKaro = [
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:1500,
+            Personal_income: 1500,
             isEmployed: true,
             Address: "gulshan"
         },
@@ -405,7 +420,7 @@ let TechKaro = [
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:1500,
+            Personal_income: 1500,
             isEmployed: true,
             Address: "Saddar"
         },
@@ -461,7 +476,7 @@ let TechKaro = [
             Email: "abc123@gmail.com",
             Contact: 0320123,
             Father_income: 2000,
-            Personal_income:1500,
+            Personal_income: 1500,
             isEmployed: true,
             Address: "Saddar"
         },
@@ -507,12 +522,32 @@ let TechKaro = [
             isEmployed: true,
             Address: "gulshan"
         }
-        ]
-    },
-    {
-        Tech_Ninja: ["Ali", "Noreen_Naz","Edward"]
-    },
-    {
-        Mentor: ["ABC", "XYZ"]
-    }
-];
+    ],
+    Tech_Ninja: ["Ali",
+        "Noreen_Naz",
+        "Edward",
+        "Khair-un-nisa",
+        "John",
+        "Jack",
+        "Smith"],
+    Mentor: ["ABC", "XYZ"],
+    educationPatrner: ["SSUET",
+        "UIT",
+        "NED",
+        "SZABIST",
+        "IU",
+        "INDUS",
+        "MEHRAN",
+        "UET",
+    ],
+    interAndJobPartner: ["Next-Gen",
+        "Loopz",
+        "Microsoft",
+        "Ibm",
+        "Venditure",
+        "Ibex",
+        "Solaris",
+        "Jet-Netix",
+        "Cubix",
+        "Paramount"]
+}
